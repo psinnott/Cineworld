@@ -21,7 +21,8 @@ public class Example
 					Performance performances[] = client.fetch_film_performances(film,d);
 					for( Performance performance : performances)
 					{
-						System.out.println( performance.getFilm().getTitle() + " " + performance.getDate());
+						System.out.println( performance.getFilm().getTitle() + " " + 
+                                                                    performance.getDate());
 					}
 				}
 			}
