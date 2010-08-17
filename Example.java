@@ -18,7 +18,7 @@ public class Example
 				{
 					Date d = new Date();
 					
-					Performance performances[] = client.fetch_film_performances(film,d);
+					Performance performances[] = client.fetch_performances(film,d);
 					for( Performance performance : performances)
 					{
 						System.out.println( performance.getFilm().getTitle() + " " + 
